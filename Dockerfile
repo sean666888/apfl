@@ -1,2 +1,2 @@
 FROM greyfoxit/alpine-android
-RUN chmod -R 0777 /usr/local/android-sdk-linux
+RUN chmod -R -c 0777 /usr/local/android-sdk-linux
